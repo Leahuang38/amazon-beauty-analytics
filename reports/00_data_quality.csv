@@ -1,0 +1,26 @@
+section,check,value,percent
+reviews,total rows,701528,
+reviews,distinct non-null parent_asin,112565,
+reviews,ratings outside 1-5,0,0.0
+reviews,non-integer ratings,0,0.0
+reviews,blank review text,720,0.1
+reviews,repeated core review rows (candidate),7276,1.04
+reviews,missing rating,0,0.0
+reviews,missing parent_asin,0,0.0
+reviews,missing text,0,0.0
+reviews,missing title,0,0.0
+reviews,missing timestamp,0,0.0
+reviews,missing helpful_vote,0,0.0
+products,total rows,112590,
+products,distinct non-null parent_asin,112590,
+products,missing parent_asin,0,0.0
+products,repeated parent_asin rows,0,0.0
+products,missing parent_asin,0,0.0
+products,missing title,0,0.0
+products,missing main_category,0,0.0
+products,missing price,94886,84.28
+products,missing store,11331,10.06
+products,missing categories,0,0.0
+join,distinct review product IDs,112565,
+join,matched product IDs,112565,100.0
+join,unmatched product IDs,0,0.0

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+naya-gtm-italy-2027/
+
+# Keep downloaded source data and local database files outside Git.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+reports/*.html
+reports/*.png
+!reports/01_product_star_counts.png
+!reports/02_review_terms_by_rating.png
+!reports/03_selected_product_phrase_comparison.png
+*.duckdb
